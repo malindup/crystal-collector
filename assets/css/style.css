@@ -1,0 +1,191 @@
+body {
+    background-image: url("../images/background-hexagon-1.png");
+    margin: 5px;
+    overflow: auto;
+}
+#game-title {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin: 5px;
+    padding: 15px 5px;
+    background-color: darkorange;
+    color: whitesmoke;
+    width: 20%;
+}
+#instructions {
+    color: forestgreen;
+    background-color: ivory;
+    width: 25%;
+    height: 350px;
+    padding: 20px;
+    line-height: 2;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#random-number {
+    background-color: darkgreen;
+    width: 15%;
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    padding-bottom: 50px;
+    float: left;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#wins-losses {
+    float: left;
+    text-align: center;
+    background-color: turquoise;
+    padding: 15px 5px;
+    margin: 5px;
+    height: 100px;
+    line-height: 2.5;
+}
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: white;
+    margin: 5px;
+}
+#crystals {
+    position: relative;
+    top: 135px;
+    right: 335px;
+    margin: 5px;
+    width: 70%;
+    align-content: center;
+}
+#score-title {
+    position: relative;
+    top: 250px;
+    background-color: seagreen;
+    color: whitesmoke;
+    width: 14%;
+    padding: 15px;
+}
+#score-title p {
+    position: absolute;
+    top: 5px;
+    height: 20px;
+}
+#user-score {
+    position: relative;
+    top: 265px;
+    background-color: seagreen;
+    color: whitesmoke;
+    width: 15%;
+    padding: 10px 5px 80px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#user-score h3 {
+    position: absolute;
+}
+/* Adding media queries*/
+@media screen and (max-width: 1080px) {
+    #game-title {
+        width: 18%;
+        font-size: large;
+    }
+    #instructions {
+        height: 90%;
+    }
+    #crystals {
+        float: right;
+        right: 275px;
+    }
+    #score-title {
+        top: 255px;
+    }
+    #user-score {
+        top: 265px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #game-title {
+        width: 30%;
+        font-size: x-large;
+    }
+    #instructions {
+        width: 70%;
+        line-height: 2;
+        font-size: medium;
+    }
+    #random-number {
+        width: 30%;
+    }
+    #crystals {
+        top: 0px;
+        right: 210px;
+    }
+    #score-title {
+        top: 260px;
+        width: 50%;
+    }
+    #user-score {
+        width: 52.5%;
+        padding-bottom: 100px;
+    }
+}
+@media screen and (max-width: 640px) {
+    #game-title {
+        width: 50%;
+        font-size: xx-large;
+    }
+    #instructions {
+        width: 80%;
+        line-height: 2.5;
+        font-size: large;
+    }
+    #random-number {
+        width: 40%;
+        font-size: xx-large;
+    }
+    #wins-losses {
+        width: 40%;
+        font-size: large;
+    }
+    #crystals {
+        right: 50px;
+        float: right;
+        width: 90%;
+    }
+    #score-title {
+        top: 265px;
+        width: 75%;
+        font-size: x-large;
+    }
+    #user-score {
+        top: 275px;
+        width: 78%;
+        font-size: xx-large;
+    }
+}
+@media screen and (max-width: 434px) {
+    #game-title {
+        width: 90%;
+        text-align: center;
+    }
+    #instructions {
+        width: 88%;
+    }
+    #crystals {
+        right: -10px;
+        width: 100%;
+    }
+    #crystals img {
+        width: 80px;
+        height: 80px;
+    }
+    #score-title {
+        width: 90%;
+        text-align: center;
+    }
+    #user-score {
+        width: 95%;
+    }
+}
